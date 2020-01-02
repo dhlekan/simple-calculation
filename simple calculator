@@ -1,0 +1,46 @@
+#Write a simple program that adds, subtracts, divides and multiplys 2 numbers
+
+
+
+while True:
+   
+    
+    num3 = eval(input("Enter Number or quit to exit: "))
+    if num3 == quit:
+        break
+    num1 = eval(input("Enter first Number: "))
+    num2 = eval(input("Enter Second Number: "))
+    print("Enter which operation would you like to perform?")
+    ch = input("Enter any of these character for specific operation +,-,*,/: ")
+    result = 0
+   
+    if ch == '+':
+        result = num1 + num2
+    elif ch == '-':
+        result = num1 - num2
+    elif ch == '*':
+        result = num1 * num2
+    elif ch == '/':
+        result = num1 / num2
+
+
+    else:
+        print("Input character is not recognized!")
+    print(num1, ch , num2, ":", result, )
+
+    
+
+   
+    
+             
+   
+        
+
+
+    
+
+    
+
+
+
+
